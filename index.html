@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Butterflies Effect</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#home">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand-link" href="#home" data-nav aria-label="A Butterflies Effect Home">
+        <img class="brand-logo" src="https://i.postimg.cc/wxtpMyJ5/Logo-sub-logo.png" alt="A Butterflies Effect logo" />
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-controls="primary-nav" aria-expanded="false">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <nav id="primary-nav" class="nav" aria-label="Primary">
+        <a class="nav-link" href="#home" data-nav>Home</a>
+        <a class="nav-link" href="#about" data-nav>About Us</a>
+        <a class="nav-link" href="#services" data-nav>Services</a>
+        <a class="nav-link" href="#resources" data-nav>Resources</a>
+        <a class="nav-link cta" href="#resources" data-nav>Contact</a>
+      </nav>
+
+      <div class="accreditation" aria-label="Accreditation">
+        <img class="carf-logo" src="https://i.postimg.cc/R0m8TqNQ/CARF.webp" alt="CARF accreditation" />
+      </div>
+    </div>
+  </header>
+
+  <main class="site-main" role="main">
+    <section id="home" class="section hero" aria-label="Home">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <span class="hero-badge">Transforming Lives Since 2018</span>
+          <h1 class="hero-title">A Butterflies Effect</h1>
+          <p class="hero-subtitle">A Therapeutic Holistic Approach to Rehabilitation, Transformation, and Support</p>
+          <p class="hero-quote">
+            <svg class="quote-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V21c0 0 1 0 1 0z"></path>
+              <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 0 1 0 1 0z"></path>
+            </svg>
+            Resilience of a Caterpillar. Flight of a Butterfly.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#resources" data-nav>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              Contact Us
+            </a>
+            <a class="btn secondary" href="#services" data-nav>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              View Services
+            </a>
+          </div>
+
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-wrapper">
+            <img class="hero-image" src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=600&h=400&fit=crop" alt="Supportive community hands together" />
+          </div>
+          <div class="hero-card" aria-label="Highlights">
+            <div class="card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+            </div>
+            <h2 class="card-title">Our Vision</h2>
+            <p>
+              To cultivate a supportive community where returning citizens can access vital resources to break generational cycles, thrive, and make meaningful contributions to society.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section image-banner" aria-label="Community">
+      <div class="container">
+        <div class="banner-content">
+          <img class="banner-image" src="https://i.postimg.cc/KzCBb3XQ/diversity-hands-team-above-support-trust-unity-collaboration-agreement-meeting-office-group-hand-div.webp" alt="Diverse hands coming together in unity and support" />
+          <div class="banner-overlay">
+            <h2>Together, We Rise</h2>
+            <p>Building bridges to brighter futures through compassion, support, and community</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section" aria-label="About us">
+      <div class="container">
+        <header class="section-header center">
+          <span class="section-badge">Who We Are</span>
+          <h2>About Us</h2>
+          <p class="section-desc">Empowering individuals to transform their lives through holistic support and community</p>
+        </header>
+
+        <div class="grid two">
+          <article class="panel feature-panel">
+            <div class="panel-image">
+              <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=500&h=300&fit=crop" alt="Hands coming together in support" />
+            </div>
+            <div class="panel-content">
+              <h3>Our Story</h3>
+              <p>
+                At A Butterflies Effect, we provide a nurturing, family-oriented environment for individuals facing challenges, offering residential services and community assistance to support recovery and empowerment.
+              </p>
+              <p>
+                Our comfortable, sober living spaces include well-appointed accommodations and homemade meals, promoting a sense of belonging and growth.
+              </p>
+            </div>
+          </article>
+
+          <article class="panel feature-panel">
+            <div class="panel-image">
+              <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=500&h=300&fit=crop" alt="Community support group" />
+            </div>
+            <div class="panel-content">
+              <h3>Our Mission</h3>
+              <p>
+                To create a secure and supportive healing environment for marginalized clients, ensuring that services are provided by clinicians who have a deep understanding of the clients' community backgrounds.
+              </p>
+              <a class="panel-link" href="#services" data-nav>
+                Learn about our services
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section section-alt" aria-label="Services">
+      <div class="container">
+        <header class="section-header center">
+          <span class="section-badge">What We Offer</span>
+          <h2>Our Services</h2>
+          <p class="section-desc">Comprehensive support for every step of your transformation journey</p>
+        </header>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+              </svg>
+            </div>
+            <h4>Safe Housing</h4>
+            <p>Comfortable, fully furnished accommodations in a serene setting.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </div>
+            <h4>Counseling & Therapy</h4>
+            <p>Individual and group sessions led by experienced professionals.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+              </svg>
+            </div>
+            <h4>Life Skills & Training</h4>
+            <p>Workshops focused on problem-solving and building essential skills.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 20V10"></path>
+                <path d="M12 20V4"></path>
+                <path d="M6 20v-6"></path>
+              </svg>
+            </div>
+            <h4>Health & Wellness</h4>
+            <p>Access to fitness programs, nutrition education, and mindfulness.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h4>After Care & Support</h4>
+            <p>Continued guidance to maintain sobriety and reintegrate into society.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+                <line x1="9" y1="9" x2="9.01" y2="9"></line>
+                <line x1="15" y1="9" x2="15.01" y2="9"></line>
+              </svg>
+            </div>
+            <h4>Community Collaboration</h4>
+            <p>Building connections with local resources and support networks.</p>
+          </article>
+        </div>
+
+        <div class="approach-section">
+          <div class="approach-image">
+            <img src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=500&h=400&fit=crop" alt="Therapeutic session" />
+          </div>
+          <div class="approach-content">
+            <h3>Our Holistic Approach</h3>
+            <p>We focus on providing a well-rounded approach to recovery that supports every aspect of the client's journey.</p>
+            <ul class="approach-list">
+              <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Comprehensive Therapy
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Personal Recovery Plans
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Peer & Family Support
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Case Management
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Medication & Wellness Care
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonial-section" aria-label="Testimonial">
+      <div class="container">
+        <div class="testimonial-card">
+          <div class="testimonial-quote">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor" opacity="0.15">
+              <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V21c0 0 1 0 1 0z"></path>
+              <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 0 1 0 1 0z"></path>
+            </svg>
+          </div>
+          <blockquote class="testimonial-text">
+            "A Butterflies Effect gave me the tools and support I needed to transform my life. The caring staff and holistic approach made all the difference in my recovery journey."
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar"></div>
+            <div class="author-info">
+              <span class="author-name">Program Graduate</span>
+              <span class="author-role">Successfully Reintegrated, 2024</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resources" class="section" aria-label="Resources">
+      <div class="container">
+        <header class="section-header center">
+          <span class="section-badge">Get In Touch</span>
+          <h2>Contact & Resources</h2>
+          <p class="section-desc">We're here to help you take the first step toward transformation</p>
+        </header>
+
+        <div class="contact-grid">
+          <article class="contact-card">
+            <div class="contact-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <h3>Location</h3>
+            <p>Rockville, Maryland</p>
+            <span class="contact-detail">Serving the DMV area</span>
+          </article>
+
+          <article class="contact-card">
+            <div class="contact-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </div>
+            <h3>Phone</h3>
+            <p><a href="tel:+18004803809">(800) 480-3809</a></p>
+            <span class="contact-detail">24/7 Support Line</span>
+          </article>
+
+          <article class="contact-card">
+            <div class="contact-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <h3>Email</h3>
+            <p><a href="mailto:info@abutterflieseffect.com">info@abutterflieseffect.com</a></p>
+            <span class="contact-detail">Response within 24 hours</span>
+          </article>
+
+          <article class="contact-card highlight">
+            <div class="contact-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                <path d="M7 15h0M2 9.5h20"></path>
+              </svg>
+            </div>
+            <h3>Insurance</h3>
+            <p>Medicaid Accepted</p>
+            <span class="contact-detail">Financial assistance available</span>
+          </article>
+        </div>
+
+        <div class="cta-banner">
+          <div class="cta-content">
+            <h3>Ready to Begin Your Transformation?</h3>
+            <p>Take the first step toward a brighter future. Our compassionate team is here to support you every step of the way.</p>
+          </div>
+          <a class="btn primary large" href="tel:+18004803809">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            Call Now: (800) 480-3809
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <p class="footer-title">A Butterflies Effect</p>
+        <p class="footer-tagline">Transforming lives, one butterfly at a time.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home" data-nav>Home</a>
+        <a href="#about" data-nav>About</a>
+        <a href="#services" data-nav>Services</a>
+        <a href="#resources" data-nav>Contact</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.abutterflieseffect.com" target="_blank" rel="noopener noreferrer" aria-label="Website">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="2" y1="12" x2="22" y2="12"></line>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+          </svg>
+        </a>
+      </div>
+      <p class="footer-meta">© <span id="year"></span> A Butterflies Effect. All rights reserved. | CARF Accredited</p>
+    </div>
+  </footer>
+</body>
+</html>
