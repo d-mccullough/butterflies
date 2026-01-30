@@ -50,7 +50,7 @@ Array.from(document.querySelectorAll('[data-nav]')).forEach((a) => {
   });
 });
 
-const sectionIds = ['home', 'about', 'services', 'resources'];
+const sectionIds = ['home', 'about', 'services', 'outpatient', 'resources', 'contact'];
 const sections = sectionIds
   .map((id) => document.getElementById(id))
   .filter(Boolean);
@@ -83,3 +83,40 @@ setActiveLinkByHash(window.location.hash);
 
 const yearEl = document.getElementById('year');
 if (yearEl) yearEl.textContent = String(new Date().getFullYear());
+
+// Tab switching for Outpatient section
+const tabBtns = document.querySelectorAll('.tab-btn');
+const tabPanels = document.querySelectorAll('.tab-panel');
+
+tabBtns.forEach((btn) => {
+  btn.addEventListener('click', () => {
+    const tabId = btn.getAttribute('data-tab');
+    
+    // Remove active class from all buttons and panels
+    tabBtns.forEach((b) => b.classList.remove('active'));
+    tabPanels.forEach((p) => p.classList.remove('active'));
+    
+    // Add active class to clicked button and corresponding panel
+    btn.classList.add('active');
+    const panel = document.getElementById(`${tabId}-panel`);
+    if (panel) panel.classList.add('active');
+  });
+});
+
+// Contact form submission feedback
+const contactForm = document.getElementById('contact-form');
+if (contactForm) {
+  contactForm.addEventListener('submit', function(e) {
+    const submitBtn = this.querySelector('.submit-btn');
+    if (submitBtn) {
+      submitBtn.innerHTML = `
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="spin">
+          <circle cx="12" cy="12" r="10"></circle>
+          <path d="M12 6v6l4 2"></path>
+        </svg>
+        Sending...
+      `;
+      submitBtn.disabled = true;
+    }
+  });
+}
