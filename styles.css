@@ -1777,7 +1777,7 @@ button:focus-visible {
   width: 75px;
   top: 8%;
   left: -80px;
-  animation: flyAcross1 25s linear infinite;
+  animation: flyAcross1 10s linear infinite;
   animation-delay: 0s;
   opacity: 0.65;
 }
@@ -1786,7 +1786,7 @@ button:focus-visible {
   width: 60px;
   top: 25%;
   left: -70px;
-  animation: flyAcross2 30s linear infinite;
+  animation: flyAcross2 12s linear infinite;
   animation-delay: 5s;
   opacity: 0.55;
 }
@@ -1795,7 +1795,7 @@ button:focus-visible {
   width: 85px;
   top: 45%;
   left: -90px;
-  animation: flyAcross3 28s linear infinite;
+  animation: flyAcross3 11s linear infinite;
   animation-delay: 10s;
   opacity: 0.7;
 }
@@ -1804,7 +1804,7 @@ button:focus-visible {
   width: 55px;
   top: 65%;
   left: -60px;
-  animation: flyAcross4 32s linear infinite;
+  animation: flyAcross4 13s linear infinite;
   animation-delay: 3s;
   opacity: 0.6;
 }
@@ -1813,7 +1813,7 @@ button:focus-visible {
   width: 70px;
   top: 80%;
   left: -75px;
-  animation: flyAcross5 26s linear infinite;
+  animation: flyAcross5 10s linear infinite;
   animation-delay: 8s;
   opacity: 0.65;
 }
